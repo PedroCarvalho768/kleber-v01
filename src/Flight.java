@@ -11,9 +11,9 @@ public class Flight {
     Date departureTime;
     Date arrivalTime;
     int duration;
-
     boolean booked = false;
 
+    // Constructor
     public Flight(int id, String origin, String destination, int departureDay, int departureMonth, int departureYear,
             int departureHour, int departureMinute, int arrivalDay, int arrivalMonth, int arrivalYear, int arrivalHour,
             int arrivalMinute) {

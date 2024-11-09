@@ -4,7 +4,6 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         ArrayList<Flight> flights = new ArrayList<Flight>();
-        flights.add(new Flight(0, "LAX", "DFW", 5, 5, 2020, 10, 0, 5, 5, 2020, 10, 30));
         flights.add(new Flight(1, "LAX", "DFW", 5, 5, 2020, 11, 0, 5, 5, 2020, 11, 30));
         flights.add(new Flight(2, "DFW", "JFK", 7, 7, 2020, 11, 0, 7, 7, 2020, 12, 0));
         flights.add(new Flight(3, "JFK", "SFO", 8, 8, 2020, 12, 0, 8, 8, 2020, 13, 0));
